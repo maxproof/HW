@@ -194,8 +194,8 @@
       <list>
         <item itemvalue="Application.ShuffleMergeListMap" />
         <item itemvalue="Application.UseOfLambdasAndStreams" />
-        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.FizzBuzz2" />
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

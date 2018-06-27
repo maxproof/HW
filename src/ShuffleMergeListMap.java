@@ -9,6 +9,12 @@ public class ShuffleMergeListMap {
 
     public static void main(String[] args) {
 
+        int count = 1;
+        while (count < 11) {
+            System.out.println("Count is: " + count);
+            count++;
+        }
+
         //first list
         List<String> dataList1 = new ArrayList<String>();
         dataList1.add("EEEEEE");
