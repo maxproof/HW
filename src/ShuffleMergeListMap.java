@@ -19,12 +19,14 @@ public class ShuffleMergeListMap {
         dataList1.add("SSSSSS");
         dataList1.add("AAAAAA");
 
+        //shuffled list
         List<String> shuffledList1 = new ArrayList<String>(dataList1);
         //System.out.println("Printing result before any Operation: \t" + dataList1);
         // Randomly permutes the specified list using a default source of randomness.
         Collections.shuffle(dataList1);
         //System.out.println("Printing result after shuffle(): \t" + dataList1);
 
+        //second list
         List<String> dataList2 = new ArrayList<String>();
         dataList2.add("QQQQQQ");
         dataList2.add("DDDDDD");
@@ -34,11 +36,13 @@ public class ShuffleMergeListMap {
         dataList2.add("TTTTTT");
         dataList2.add("LLLLLL");
 
+        //shuffled list
         List<String> shuffledList2 = new ArrayList<String>(dataList2);
         //System.out.println("Printing result before any Operation: \t" + dataList2);
         Collections.shuffle(dataList2);
         //System.out.println("Printing result after shuffle(): \t" + dataList2);
 
+        //map from two lists
         Map<String, String> map12 = IntStream.range(0, dataList1.size())
                 .boxed()
                 .collect(Collectors.toMap(i -> dataList1.get(i), i -> dataList2.get(i)));
