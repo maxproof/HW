@@ -9,6 +9,7 @@ public class ShuffleMergeListMap {
 
     public static void main(String[] args) {
 
+        //first list
         List<String> dataList1 = new ArrayList<String>();
         dataList1.add("EEEEEE");
         dataList1.add("FFFFFF");
