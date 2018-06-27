@@ -9,12 +9,6 @@ public class ShuffleMergeListMap {
 
     public static void main(String[] args) {
 
-        int count = 1;
-        while (count < 11) {
-            System.out.println("Count is: " + count);
-            count++;
-        }
-
         //first list
         List<String> dataList1 = new ArrayList<String>();
         dataList1.add("EEEEEE");
@@ -57,16 +51,6 @@ public class ShuffleMergeListMap {
         //System.out.println("------------------------------------------");
         map12.forEach((k, v) -> System.out.println("[ " + k + ", " + v + " ]"));
 
-    }
-
-    public static int minFunction(int n1, int n2) {
-        int min;
-        if (n1 > n2)
-            min = n2;
-        else
-            min = n1;
-
-        return min;
     }
 
 }
